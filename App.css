@@ -33,6 +33,7 @@ button:hover {
   cursor: pointer;
   background-color: #303233;
 }
+
 .buttonTouch{
   font-size: 1.5rem;
   width: 185px;

@@ -59,7 +59,7 @@ function App() {
     setIsScrolling(false);
   };
 
-
+const pao =''
   const handleOnTouchStart = (e, index) => {
     setIsScrolling(true);
     setStartX(e.touches[0].clientX);
@@ -85,10 +85,11 @@ function App() {
 
   return (
     <>
+    <div>safasfasfa</div>
       <div className="background_container">
         <div className='Streaming'>
           <div className='Streamify'>Streamify</div>
-          <div className='top-text'>On Streamify</div>
+          <div className='top-text'>On Streamifyasfafssafa</div>
           <div className='head-text'> Explore captivating shows and series, handpicked for you.
              From drama to comedy, sci-fi to romance, we've got it all. Start Watching now!</div>
           <button className='Subs'>Subscribe to Streamify</button>

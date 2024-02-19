@@ -74,14 +74,7 @@ function App() {
     setIsScrolling(false);
   };
 
-  const handleButtonTouchStart = () =>{
-    setShowButton(true)
-  }
-  const handleButtonTouchEnd =() =>{
-    setTimeout(()=>{
-      setShowButton(false)
-    }, 5000)
-  }
+  
 
   return (
     <>
@@ -90,7 +83,7 @@ function App() {
           <div className='Streamify'>Streamify</div>
           <div className='top-text'>On Streamify</div>
           <div className='head-text'> Explore captivating shows and series, handpicked for you.
-             From drama to comedy, sci-fi to romance, we've got it all. Start Watching now!</div>
+             From drama to comedy, sci-fi to romance, we've got it all. Start Watching now!a</div>
           <button className='Subs'>Subscribe to Streamify</button>
           <button className='Log-in'>Log in</button>
         </div>
@@ -110,9 +103,7 @@ function App() {
             >
               {row.data.map((item) => (
                 <div className="movie_item" key={item.id}>
-                  <div className='imag'
-                  onTouchStart={handleButtonTouchStart}
-                  onTouchEnd={handleButtonTouchEnd} >
+                  <div className='imag' >
                     <img
                       alt=""
                       src={`https://image.tmdb.org/t/p/w300/${item.poster_path}`}

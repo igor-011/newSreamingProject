@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/newSreamingProject/static/css/main.fdc4d987.css",
+    "main.js": "/newSreamingProject/static/js/main.2735e19c.js",
+    "static/js/453.d4ae021d.chunk.js": "/newSreamingProject/static/js/453.d4ae021d.chunk.js",
+    "index.html": "/newSreamingProject/index.html",
+    "main.fdc4d987.css.map": "/newSreamingProject/static/css/main.fdc4d987.css.map",
+    "main.2735e19c.js.map": "/newSreamingProject/static/js/main.2735e19c.js.map",
+    "453.d4ae021d.chunk.js.map": "/newSreamingProject/static/js/453.d4ae021d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdc4d987.css",
+    "static/js/main.2735e19c.js"
+  ]
+}

@@ -83,7 +83,7 @@ function App() {
           <div className='Streamify'>Streamify</div>
           <div className='top-text'>On Streamify</div>
           <div className='head-text'> Explore captivating shows and series, handpicked for you.
-             From drama to comedy, sci-fi to romance, we've got it all. Start Watching now!a</div>
+             From drama to comedy, sci-fi to romance, we've got it all. Start Watching now!</div>
           <button className='Subs'>Subscribe to Streamify</button>
           <button className='Log-in'>Log in</button>
         </div>
